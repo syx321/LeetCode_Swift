@@ -17,9 +17,9 @@
 //}
 import Foundation
 
-var nums = [0]
-let solution = _268()
+let nums = [3, 2, 1]
+let solution = _414()
 
-let result = solution.missingNumber2(nums)
+let result = solution.thirdMax(nums)
 
 print(result)

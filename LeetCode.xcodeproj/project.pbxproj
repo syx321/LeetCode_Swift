@@ -18,6 +18,10 @@
 		4D60658D266FBFD8005E3124 /* 1688. 比赛中的配对次数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60658C266FBFD8005E3124 /* 1688. 比赛中的配对次数.swift */; };
 		4D60658F266FC559005E3124 /* (未完)1863. 找出所有子集的异或总和再求和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60658E266FC559005E3124 /* (未完)1863. 找出所有子集的异或总和再求和.swift */; };
 		4D6065912675D639005E3124 /* (未完)17. 电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6065902675D639005E3124 /* (未完)17. 电话号码的字母组合.swift */; };
+		4D66674E275374CB00E4C576 /* 349. 两个数组的交集.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D66674D275374CB00E4C576 /* 349. 两个数组的交集.swift */; };
+		4D6667502753935400E4C576 /* 350. 两个数组的交集 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D66674F2753935400E4C576 /* 350. 两个数组的交集 II.swift */; };
+		4D6667522753952700E4C576 /* 389. 找不同.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6667512753952700E4C576 /* 389. 找不同.swift */; };
+		4D66675427539C3F00E4C576 /* 414. 第三大的数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D66675327539C3F00E4C576 /* 414. 第三大的数.swift */; };
 		4D768FA0263932B70016ABFF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D768F9F263932B70016ABFF /* main.swift */; };
 		4D768FA226393AFE0016ABFF /* 1143最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D768FA126393AFE0016ABFF /* 1143最长公共子序列.swift */; };
 		4D768FA42639A9CD0016ABFF /* 5. 最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D768FA32639A9CD0016ABFF /* 5. 最长回文子串.swift */; };
@@ -100,6 +104,10 @@
 		4D60658C266FBFD8005E3124 /* 1688. 比赛中的配对次数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1688. 比赛中的配对次数.swift"; sourceTree = "<group>"; };
 		4D60658E266FC559005E3124 /* (未完)1863. 找出所有子集的异或总和再求和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(未完)1863. 找出所有子集的异或总和再求和.swift"; sourceTree = "<group>"; };
 		4D6065902675D639005E3124 /* (未完)17. 电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "(未完)17. 电话号码的字母组合.swift"; sourceTree = "<group>"; };
+		4D66674D275374CB00E4C576 /* 349. 两个数组的交集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "349. 两个数组的交集.swift"; sourceTree = "<group>"; };
+		4D66674F2753935400E4C576 /* 350. 两个数组的交集 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350. 两个数组的交集 II.swift"; sourceTree = "<group>"; };
+		4D6667512753952700E4C576 /* 389. 找不同.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "389. 找不同.swift"; sourceTree = "<group>"; };
+		4D66675327539C3F00E4C576 /* 414. 第三大的数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "414. 第三大的数.swift"; sourceTree = "<group>"; };
 		4D768F90263931AE0016ABFF /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D768F9F263932B70016ABFF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../main.swift; sourceTree = "<group>"; };
 		4D768FA126393AFE0016ABFF /* 1143最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143最长公共子序列.swift"; sourceTree = "<group>"; };
@@ -266,8 +274,10 @@
 		4D94E04026CA7A9900FFA835 /* 排序 */ = {
 			isa = PBXGroup;
 			children = (
-				4D94E04126CA7AA300FFA835 /* 347. 前 K 个高频元素.swift */,
 				4D1CAFBC2752441500A4D6FC /* 242. 有效的字母异位词.swift */,
+				4D94E04126CA7AA300FFA835 /* 347. 前 K 个高频元素.swift */,
+				4D6667512753952700E4C576 /* 389. 找不同.swift */,
+				4D66675327539C3F00E4C576 /* 414. 第三大的数.swift */,
 			);
 			path = "排序";
 			sourceTree = "<group>";
@@ -285,11 +295,13 @@
 		4D94E05426CBA36400FFA835 /* 数组 */ = {
 			isa = PBXGroup;
 			children = (
+				4D785B5826D5502100D66120 /* Turn.swift */,
 				4D5CAE54274FB87D00C4391B /* 1.两数之和.swift */,
 				4DA50CA226CE98EA002AC97F /* 169. 多数元素.swift */,
 				4D94E05126CBA1FE00FFA835 /* 217. 存在重复元素.swift */,
 				4D1CAFBE2753365B00A4D6FC /* 268. 丢失的数字.swift */,
-				4D785B5826D5502100D66120 /* Turn.swift */,
+				4D66674D275374CB00E4C576 /* 349. 两个数组的交集.swift */,
+				4D66674F2753935400E4C576 /* 350. 两个数组的交集 II.swift */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -415,6 +427,7 @@
 				4DA50C9526CD5F6E002AC97F /* 653. 两数之和 IV - 输入 BST.swift in Sources */,
 				4D9FB11F26D13EA900B332D2 /* 876. 链表的中间结点.swift in Sources */,
 				4D27A29226B2661800BFA6B7 /* 27. 移除元素.swift in Sources */,
+				4D66675427539C3F00E4C576 /* 414. 第三大的数.swift in Sources */,
 				4DA34F1526C293B000C565CC /* 383. 赎金信.swift in Sources */,
 				4DEBE9C12751E49800512F34 /* 面试题 08.06. 汉诺塔问题.swift in Sources */,
 				4DA50CA126CE87E9002AC97F /* 283. 移动零.swift in Sources */,
@@ -430,6 +443,7 @@
 				4DA50CA726CEAB32002AC97F /* 344. 反转字符串.swift in Sources */,
 				4D27A29A26B4476700BFA6B7 /* 67. 二进制求和.swift in Sources */,
 				4D94E04226CA7AA300FFA835 /* 347. 前 K 个高频元素.swift in Sources */,
+				4D6667502753935400E4C576 /* 350. 两个数组的交集 II.swift in Sources */,
 				4DA50C9F26CE5C70002AC97F /* 977. 有序数组的平方.swift in Sources */,
 				4DA34F1126C16C7D00C565CC /* 2. 两数相加.swift in Sources */,
 				4DA50C9D26CE51D7002AC97F /* 189. 旋转数组.swift in Sources */,
@@ -437,6 +451,7 @@
 				4DFDDA9E2750B2DC005060F4 /* 50. Pow(x, n).swift in Sources */,
 				4D96A5B326BC10AE00606E34 /* TreeNode.swift in Sources */,
 				4D60658F266FC559005E3124 /* (未完)1863. 找出所有子集的异或总和再求和.swift in Sources */,
+				4D66674E275374CB00E4C576 /* 349. 两个数组的交集.swift in Sources */,
 				4DA50C9326CD4D92002AC97F /* 98. 验证二叉搜索树.swift in Sources */,
 				4DFDDAA82751124C005060F4 /* 342. 4的幂.swift in Sources */,
 				4DFDDA97274FDCE9005060F4 /* 3. 无重复字符的最长子串.swift in Sources */,
@@ -458,6 +473,7 @@
 				4DA50CA926CEAE33002AC97F /* 557. 反转字符串中的单词 III.swift in Sources */,
 				4D94E04726CA9E8E00FFA835 /* Stack.swift in Sources */,
 				4D80FE312751EFBF00A0F62B /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */,
+				4D6667522753952700E4C576 /* 389. 找不同.swift in Sources */,
 				4D768FA226393AFE0016ABFF /* 1143最长公共子序列.swift in Sources */,
 				4DFDDAA4275105E6005060F4 /* 231. 2 的幂.swift in Sources */,
 				4D94E04D26CB5DCF00FFA835 /* QuickSort.swift in Sources */,
