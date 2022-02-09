@@ -9,15 +9,21 @@ import Foundation
 
 class _206 {
     func reverseList(_ head: ListNode?) -> ListNode? {
-        var i = head,pre: ListNode? = nil,j: ListNode? = nil
-        
-        while i != nil {
-            j = i?.next
-            i?.next = pre
-            pre = i
-            i = j
+        guard head != nil else  {
+            return nil
         }
         
-        return pre
+        var prev: ListNode? = nil,
+            next: ListNode? = nil,
+            current = head
+        
+        while current != nil {
+            next = current?.next
+            current?.next = prev
+            prev = current
+            current = next
+        }
+        
+        return prev
     }
 }

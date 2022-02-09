@@ -8,26 +8,23 @@
 import Foundation
 
 class _704 {
-    
     func search(_ nums: [Int], _ target: Int) -> Int {
+        let count = nums.count
         var left = 0,
-            right = nums.count - 1,
-            mid = 0
+            right = count - 1,
+            middle = 0
         
-        while left <= right{
-            mid = (right + left)>>1
+        while left <= right {
+            middle = left + (right - left)>>2
             
-            if nums[mid] > target {
-                right = mid - 1
-            } else if nums[mid] < target {
-                left = mid + 1
+            if nums[middle] > target {
+                right = middle - 1
+            } else if nums[middle] < target {
+                left = middle + 1
             } else {
-                return mid
+                return middle
             }
         }
-        
         return -1
     }
-    
-   
 }

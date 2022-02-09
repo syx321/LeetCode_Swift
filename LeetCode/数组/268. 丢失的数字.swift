@@ -17,7 +17,7 @@ class _268 {
         return length
     }
     
-    
+    //真狗屎
     func missingNumber2(_ nums: [Int]) -> Int {
         var set = Set<Int>()
         for i in 0...nums.count {
@@ -27,5 +27,14 @@ class _268 {
             set.remove(num)
         }
         return set.removeFirst()
+    }
+    
+    func missingNumber3(_ nums: [Int]) -> Int {
+        let n = nums.count
+        var sum = n*(n+1)/2
+        for i in nums {
+            sum -= i
+        }
+        return sum
     }
 }

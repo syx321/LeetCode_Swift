@@ -8,9 +8,9 @@
 import Foundation
 
 class _144 {
-    var result : [Int] = []
+    private var result: [Int] = []
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
-        guard root != nil else{
+        if root == nil {
             return []
         }
         
